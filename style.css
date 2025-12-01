@@ -8,7 +8,9 @@
 body {
     font-family: 'times new roman', sans-serif;
     background: #27472b;
-    color: #333;
+    
+    background-size: contain;
+    color: #000000;
     text-align: center;
 }
 
@@ -28,7 +30,7 @@ body {
 
 /* Cabeçalho */
 header {
-    background: #eb198c;
+    background: black;
     padding: 20px;
     color: white;
 }
@@ -73,20 +75,19 @@ h1 {
 /* Seção Hero */
 #hero {
     padding: 40px;
-    background: white;
     border-radius: 10px;
     margin: 20px auto;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 #hero h2 {
-    color: #8ac27c;
+    color: #000000;
     font-size: 28px;
 }
 
 h3
 {
-    color: #8ac27c;
+    color: #000000;
     font-size: 28px;
 }
 #hero p {
@@ -101,7 +102,7 @@ h3
     padding: 20px;
 }
 .category h2 {
-    color: #1e9262;
+    color: #000000;
     margin-bottom: 10px;
 }
 
